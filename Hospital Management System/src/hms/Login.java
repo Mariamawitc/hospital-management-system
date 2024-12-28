@@ -22,6 +22,10 @@ PreparedStatement pst=null;
     public Login() {
         initComponents();
         setLocationRelativeTo(null);
+        getContentPane().setBackground(Color.black);
+        Color col=new Color(135,200,250);
+        getContentPane().setBackground(col);
+        
                  }
 
     /**
