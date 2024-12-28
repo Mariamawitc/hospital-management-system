@@ -1,4 +1,7 @@
 package hms;
+
+import java.awt.Color;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -16,6 +19,12 @@ public class MainMenu extends javax.swing.JFrame {
     public MainMenu() {
         initComponents();
         setLocationRelativeTo(this);
+         getContentPane().setBackground(Color.black);
+        Color col=new Color(135,200,250);
+        getContentPane().setBackground(col);
+        
+        
+        
     }
 
     /**
@@ -82,7 +91,7 @@ public class MainMenu extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JERRY\\Documents\\IMG_20230527_143326_711.jpg")); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setText("Hospital managment system");
+        jLabel1.setText("                    HMS");
 
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hms/Medical-Nurse-Female-Dark-icon.png"))); // NOI18N
         jMenu1.setText("Master Entry");
